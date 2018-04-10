@@ -12,17 +12,17 @@ with geospatial data, and to provide an introduction to methods of exploratory
 spatial data analysis and spatial econometrics.
 
 * Workshops
-The series is organized into four workshops that provide introductions
+The series is organized into four workshops that provide computationally based introductions
 to the /processing/, /visualization/, /exploration/, and /modeling/ of geospatial data.
 
  (All workshops are from 9-11 a.m. on the dates listed.)
 ** Workshop 1 (April 24): Geospatial Data Processing with Python 
 Geospatial data comes in a rich variety of formats and from many different
 sources. Wrangling geospatial data is often a major component of any applied
-research project, and becoming efficient in processing k. This first workshop
+research project, and becoming efficient in geoprocessing is thus vital. This first workshop
 provides an overview of methods for dealing with the /processing/ of geospatial
 data. This includes importing, and integrating, data in different formats (e.g.
-shapefile, GeoJSON), and the treatment of different spatial coordinate
+shapefile, GeoJSON, WKT, WKB), and the treatment of different spatial coordinate
 reference systems. Methods of deterministic spatial analysis involving
 topological relationships and spatial operations including buffering,
 dissolving, clipping, splitting and others, are covered.
@@ -62,8 +62,7 @@ spatial-temporal data are also introduced.
 The final workshop in this series provides an introduction to the /modeling/ of
 relationships in spatial data using spatial econometrics. Topics include an
 overview of model specifications for regression with spatial data, methods of
-estimation, model diagnostics, and validation issues.
-
+estimation, model diagnostics, and validation issues. 
 
 
 * Prerequisites
