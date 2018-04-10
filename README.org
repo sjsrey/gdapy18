@@ -83,21 +83,23 @@ easiest way to install these is to use the [[https://www.anaconda.com/download/]
 2. Once you have downloaded and installed Anaconda start a [[https://www.quora.com/How-do-I-start-the-anaconda-command-prompt][terminal]]
 
 ** Install the Workshop Environment
-Download the recipe for the workshop 
-From a terminal on Linux/Mac
-  #+BEGIN_SRC sh
- conda-env create -f workshop.yml 
-  #+END_SRC
-On Windows:
-#+BEGIN_SRC sh
-activate workshop
-#+END_SRC
+1. Download the workshop [[https://github.com/sjsrey/gdapy18/archive/master.zip][archive.]]
+2. Extract the archive ~unzip master.zip~
+3. ~cd master/~
+4. ~conda-env create -f workshop.yml~
+
+That last step downloads a number of packages and could take up to 10 minutes
+if you have a slow connection.
+
+
+
+
+** Activate teh Workshop Environment
+1. On Windows: ~activate workshop~
+2. On Mac/Linux: ~source activate workshop~
 
 ** Test the Installation 
-From a terminal
-#+BEGIN_SRC 
- jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
-#+END_SRC
+1. ~jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb~
 
 You should see something like:
 #+BEGIN_SRC sh
