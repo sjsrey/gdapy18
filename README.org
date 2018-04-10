@@ -57,7 +57,6 @@ heterogeneity in empirical data sets are explored. Methodological topics include
 overview of model specifications for regression with spatial data, methods of
 estimation, model diagnostics, and validation issues. 
 
-
 * Prerequisites
 
 - Basic knowledge of Python is assumed.
