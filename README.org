@@ -1,4 +1,4 @@
-#+TITLE: Introduction to GeoSpatial Analysis with Python
+#+TITLE: Introduction to Geospatial Data Analysis with Python
 
 A sequence of four courses for the [[https://gradquant.ucr.edu/][Graduate Quantitative Methods Center]] (aka
 GradQuant) at UCR, presented by [[http://spatial.ucr.edu/peopleRey.html][Dr. Sergio Rey]], Director [[http://spatial.ucr.edu/][UCR Center for Geospatial Sciencs]].
@@ -83,6 +83,7 @@ easiest way to install these is to use the [[https://www.anaconda.com/download/]
 2. Once you have downloaded and installed Anaconda start a [[https://www.quora.com/How-do-I-start-the-anaconda-command-prompt][terminal]]
 
 ** Install the Workshop Environment
+Download the recipe for the workshop 
 From a terminal on Linux/Mac
   #+BEGIN_SRC sh
  conda-env create -f workshop.yml 
@@ -106,9 +107,12 @@ You should see something like:
 #+END_SRC
 
 This will generate a file ~check_workshop.html~ in the local directory. If you
-open this up in a browser you should see something like the following:
+open this up in a browser you should see something like the following inside
+the file:
 
 [[./figures/htmlout.png]]
 
 
+At this point you are good to go. 
 
+If you do hit any snags, just email the instructor at ~sergio.rey at ucr.edu~ for help.
