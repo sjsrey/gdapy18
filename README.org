@@ -1,7 +1,8 @@
 #+TITLE: Introduction to Geospatial Data Analysis with Python
 
 A sequence of four workshops for the [[https://gradquant.ucr.edu/][Graduate Quantitative Methods Center]] (aka
-GradQuant) at UCR, presented by [[http://spatial.ucr.edu/peopleRey.html][Dr. Sergio Rey]], Director [[http://spatial.ucr.edu/][UCR Center for Geospatial Sciencs]].
+GradQuant) at the University of California, Riverside ([[http://ucr.edu][UCR]]), presented by [[http://spatial.ucr.edu/peopleRey.html][Dr.
+Sergio Rey]], Founding Director of the [[http://spatial.ucr.edu/][UCR Center for Geospatial Sciences]].
 
 
 This workshop series provides a gentle introduction to Python for geospatial
