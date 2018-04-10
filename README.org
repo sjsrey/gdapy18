@@ -4,19 +4,18 @@ A sequence of four courses for the [[https://gradquant.ucr.edu/][Graduate Quanti
 GradQuant) at UCR, presented by [[http://spatial.ucr.edu/peopleRey.html][Dr. Sergio Rey]], Director [[http://spatial.ucr.edu/][UCR Center for Geospatial Sciencs]].
 
 
-This workshop series provide participants with a gentle introduction to Python
-for geospatial analysis. Through hands-on instruction, the workhops cover the
-open source Python Spatial Analysis Library ([[http://pysal.readthedocs.io/en/latest/index.html][PySAL]]) and the related Python
-eco-system of libraries to facilitate common tasks for scientists and
-researchers working with geospatial data, and to provide an introduction to
-methods of exploratory spatial data analysis and spatial econometrics.
+This workshop series provides a gentle introduction to Python for geospatial
+analysis. Through hands-on instruction, the workhops cover the open source
+Python Spatial Analysis Library ([[http://pysal.readthedocs.io/en/latest/index.html][PySAL]]) and the related Python eco-system of
+libraries to facilitate common tasks for scientists and researchers working
+with geospatial data, and to provide an introduction to methods of exploratory
+spatial data analysis and spatial econometrics.
 
 * Workshops
-The series is organized into four two-hour workshops the provide introductions
+The series is organized into four workshops that provide introductions
 to the /processing/, /visualization/, /exploration/, and /modeling/ of geospatial data.
 
-(All workshops are from 9-11 on the dates listed)
-
+ (All workshops are from 9-11 a.m. on the dates listed.)
 ** Workshop 1 (April 24): Geospatial Data Processing with Python 
 Geospatial data comes in a rich variety of formats and from many different
 sources. Wrangling geospatial data is often a major component of any applied
@@ -105,4 +104,11 @@ You should see something like:
 [NbConvertApp] Executing notebook with kernel: python2
 [NbConvertApp] Writing 435635 bytes to check_workshop.html
 #+END_SRC
+
+This will generate a file ~check_workshop.html~ in the local directory. If you
+open this up in a browser you should see something like the following:
+
+[[./figures/htmlout.png]]
+
+
 
