@@ -1,11 +1,11 @@
 #+TITLE: Introduction to Geospatial Data Analysis with Python
 
-A sequence of four courses for the [[https://gradquant.ucr.edu/][Graduate Quantitative Methods Center]] (aka
+A sequence of four workshops for the [[https://gradquant.ucr.edu/][Graduate Quantitative Methods Center]] (aka
 GradQuant) at UCR, presented by [[http://spatial.ucr.edu/peopleRey.html][Dr. Sergio Rey]], Director [[http://spatial.ucr.edu/][UCR Center for Geospatial Sciencs]].
 
 
 This workshop series provides a gentle introduction to Python for geospatial
-analysis. Through hands-on instruction, the workhops cover the open source
+data analysis. Through hands-on instruction, the workhops cover the open source
 Python Spatial Analysis Library ([[http://pysal.readthedocs.io/en/latest/index.html][PySAL]]) and the related Python eco-system of
 libraries to facilitate common tasks for scientists and researchers working
 with geospatial data, and to provide an introduction to methods of exploratory
@@ -38,16 +38,6 @@ graphical depictions and gather insights from geospatial are also examined.
 Libraries supporting publication quality visualizations are presented. Finally,
 the development of interactive geovisualizations is introduced.
 
-visualizing, combining and tidying them up for analysis, and will use libraries
-such as pandas, geopandas, PySAL, or rasterio. The second part will provide a
-gentle overview to demonstrate several techniques that allow to extract
-geospatial insight from the data. This includes spatial clustering and
-regression and point pattern analysis, and will use libraries such as PySAL,
-scikit-learn, or clusterpy. A particular emphasis will be set on presenting
-concepts through visualization, for which libraries such as matplotlib,
-seaborn, and folium will be used
-
-
 ** Workshop 3 (May 15): Exploratory Spatial Data Analysis 
 This workshop provides and introduction to methods that support the
 /exploration/ of spatial data. The goal of these methods is to uncover and
@@ -60,7 +50,9 @@ spatial-temporal data are also introduced.
 
 ** Workshop 4 (May 22): Introduction to Spatial Econometrics
 The final workshop in this series provides an introduction to the /modeling/ of
-relationships in spatial data using spatial econometrics. Topics include an
+relationships in spatial data using methods of [[https://www.amazon.com/Modern-Spatial-Econometrics-Practice-GeoDaSpace/dp/0986342106][modern spatial econometrics]]. The
+complications that arise due to spatial dependence and spatial
+heterogeneity in empirical data sets are explored. Methodological topics include an
 overview of model specifications for regression with spatial data, methods of
 estimation, model diagnostics, and validation issues. 
 
@@ -89,8 +81,6 @@ easiest way to install these is to use the [[https://www.anaconda.com/download/]
 
 That last step downloads a number of packages and could take up to 10 minutes
 if you have a slow connection.
-
-
 
 
 ** Activate teh Workshop Environment
