@@ -1,37 +1,40 @@
 # Run `conda-env create -f workshop.yml`
-name: workshop
-channels:
-  - ioos
-  - bokeh
-  - conda-forge
 
+name: workshop 
+channels:
+  - conda-forge
 dependencies:
-  - python=2.7
+  - python=3
   - pip
   - bokeh
-  - cartopy
-  - clusterpy
   - dask
+  - feather-format
   - geopandas
   - ipython
   - ipywidgets
   - jupyter
-  - mplleaflet
-  - nbconvert
+  - jupyterlab
+  - jupyter_client
+  - mkl-service
   - networkx
+  - osmnx
   - palettable
-  - PIL
+  - pillow
   - pip:
-        - contextily
-        - folium
-        - geojson
-        - palettable
-  - qgrid
+      - geojson
+      - folium
+      - bambi
+      - pystan
+      - polyline
+      - rpy2
+  - contextily
+  - pymc3
+  - pysal
   - rasterio
+  - scikit-image
   - scikit-learn
   - seaborn
   - statsmodels
   - xlrd
   - xlsxwriter
-  - bokeh
-  - datashader
+

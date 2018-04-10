@@ -7,7 +7,7 @@ Sergio Rey]], Founding Director of the [[http://spatial.ucr.edu/][UCR Center for
 
 This workshop series provides a gentle introduction to Python for geospatial
 data analysis. Through hands-on instruction, the workhops cover the open source
-Python Spatial Analysis Library ([[http://pysal.readthedocs.io/en/latest/index.html][PySAL]]) and the related Python eco-system of
+Python Spatial Analysis Library ([[http://pysal.readthedocs.io/en/latest/index.html][PySAL]]) and the related Python ecosystem of
 libraries to facilitate common tasks for scientists and researchers working
 with geospatial data, and to provide an introduction to methods of exploratory
 spatial data analysis and spatial econometrics.
@@ -75,7 +75,7 @@ easiest way to install these is to use the [[https://www.anaconda.com/download/]
 
 ** Install the Workshop Environment
 1. Download the workshop [[https://github.com/sjsrey/gdapy18/archive/master.zip][archive.]]
-2. Extract the archive ~unzip qdapy18-master.zip~
+2. Extract the archive ~unzip gdapy18-master.zip~
 3. ~cd gdapy18-master/~
 4. ~conda-env create -f workshop.yml~
 
