@@ -76,8 +76,8 @@ easiest way to install these is to use the [[https://www.anaconda.com/download/]
 
 ** Install the Workshop Environment
 1. Download the workshop [[https://github.com/sjsrey/gdapy18/archive/master.zip][archive.]]
-2. Extract the archive ~unzip master.zip~
-3. ~cd master/~
+2. Extract the archive ~unzip qdapy18-master.zip~
+3. ~cd gdapy18-master/~
 4. ~conda-env create -f workshop.yml~
 
 That last step downloads a number of packages and could take up to 10 minutes
