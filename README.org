@@ -1,0 +1,108 @@
+#+TITLE: Introduction to GeoSpatial Analysis with Python
+
+A sequence of four courses for the [[https://gradquant.ucr.edu/][Graduate Quantitative Methods Center]] (aka
+GradQuant) at UCR, presented by [[http://spatial.ucr.edu/peopleRey.html][Dr. Sergio Rey]], Director [[http://spatial.ucr.edu/][UCR Center for Geospatial Sciencs]].
+
+
+This workshop series provide participants with a gentle introduction to Python
+for geospatial analysis. Through hands-on instruction, the workhops cover the
+open source Python Spatial Analysis Library ([[http://pysal.readthedocs.io/en/latest/index.html][PySAL]]) and the related Python
+eco-system of libraries to facilitate common tasks for scientists and
+researchers working with geospatial data, and to provide an introduction to
+methods of exploratory spatial data analysis and spatial econometrics.
+
+* Workshops
+The series is organized into four two-hour workshops the provide introductions
+to the /processing/, /visualization/, /exploration/, and /modeling/ of geospatial data.
+
+(All workshops are from 9-11 on the dates listed)
+
+** Workshop 1 (April 24): Geospatial Data Processing with Python 
+Geospatial data comes in a rich variety of formats and from many different
+sources. Wrangling geospatial data is often a major component of any applied
+research project, and becoming efficient in processing k. This first workshop
+provides an overview of methods for dealing with the /processing/ of geospatial
+data. This includes importing, and integrating, data in different formats (e.g.
+shapefile, GeoJSON), and the treatment of different spatial coordinate
+reference systems. Methods of deterministic spatial analysis involving
+topological relationships and spatial operations including buffering,
+dissolving, clipping, splitting and others, are covered.
+
+** Workshop 2 (May 1): Geovisualization
+
+The second workshop focuses on the /visualization/ of geospatial data. Here we
+explore a number of Python libraries for scientific visualization in general,
+and geovisualization in particular. Basic cartographic concepts involving
+choropleth mapping, color schemes, and attribute classification are covered.
+Methods for exploratory visualization where the focus is on quickly generating
+graphical depictions and gather insights from geospatial are also examined. 
+Libraries supporting publication quality visualizations are presented. Finally,
+the development of interactive geovisualizations is introduced.
+
+visualizing, combining and tidying them up for analysis, and will use libraries
+such as pandas, geopandas, PySAL, or rasterio. The second part will provide a
+gentle overview to demonstrate several techniques that allow to extract
+geospatial insight from the data. This includes spatial clustering and
+regression and point pattern analysis, and will use libraries such as PySAL,
+scikit-learn, or clusterpy. A particular emphasis will be set on presenting
+concepts through visualization, for which libraries such as matplotlib,
+seaborn, and folium will be used
+
+
+** Workshop 3 (May 15): Exploratory Spatial Data Analysis 
+This workshop provides and introduction to methods that support the
+/exploration/ of spatial data. The goal of these methods is to uncover and
+detect interesting geographical patterns. The formal representation of neighbor
+relationships via spatial weights matrices are discussed. Global tests for spatial
+autocorrelation are covered, followed by local autocorrelation methods designed
+to detect hot-spots in geospatial data patterns. Methods for the exploration of
+spatial-temporal data are also introduced.
+
+
+** Workshop 4 (May 22): Introduction to Spatial Econometrics
+The final workshop in this series provides an introduction to the /modeling/ of
+relationships in spatial data using spatial econometrics. Topics include an
+overview of model specifications for regression with spatial data, methods of
+estimation, model diagnostics, and validation issues.
+
+
+
+* Prerequisites
+
+- Basic knowledge of Python is assumed.
+- Familiarity with geospatial data and methods will be helpful, but not required.
+
+* Preparation for Workshops 
+Participants are expected to bring their own laptops and to follow the
+instructions below for installing the required packages /prior/ to the workshop.
+
+** Download Anaconda Python Distribution
+We will be using a number of Python packages for geospatial analysis, and the
+easiest way to install these is to use the [[https://www.anaconda.com/download/][Anaconda Python Distribution.]]
+
+1. Download Anaconda version 3.6 for your operating system.
+2. Once you have downloaded and installed Anaconda start a [[https://www.quora.com/How-do-I-start-the-anaconda-command-prompt][terminal]]
+
+** Install the Workshop Environment
+From a terminal on Linux/Mac
+  #+BEGIN_SRC sh
+ conda-env create -f workshop.yml 
+  #+END_SRC
+On Windows:
+#+BEGIN_SRC sh
+activate workshop
+#+END_SRC
+
+** Test the Installation 
+From a terminal
+#+BEGIN_SRC 
+ jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
+#+END_SRC
+
+You should see something like:
+#+BEGIN_SRC sh
+[NbConvertApp] Converting notebook check_workshop.ipynb to html
+[NbConvertApp] Executing notebook with kernel: python2
+[NbConvertApp] Writing 435635 bytes to check_workshop.html
+#+END_SRC
+
