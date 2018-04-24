@@ -27,10 +27,10 @@ shapefile, GeoJSON, WKT, WKB), and the treatment of different spatial coordinate
 reference systems. Methods of deterministic spatial analysis involving
 topological relationships and spatial operations including buffering,
 dissolving, clipping, splitting and others, are covered.
-*** Lessons
-- Introduction to Shapely
-- Introduction to Geopandas
-- Geoprocessing with Geopandas
+*** Lesson Notebooks and pdfs
+- Introduction to Shapely ([[https://github.com/sjsrey/gdapy18/blob/master/content/shapely.ipynb][Notebook]], [[https://github.com/sjsrey/gdapy18/blob/master/content/shapely.pdf][pdf]])
+- Introduction to Geopandas ([[https://github.com/sjsrey/gdapy18/blob/master/content/geopandas_intro.ipynb][Notebook]], [[https://github.com/sjsrey/gdapy18/blob/master/content/geopandas_intro.pdf][pdf]])
+- Geoprocessing with Geopandas ([[https://github.com/sjsrey/gdapy18/blob/master/content/geopandas_buffering.ipynb][Notebook]], [[https://github.com/sjsrey/gdapy18/blob/master/content/geopandas_buffering.pdf][pdf]])
 
 ** Workshop 2 (May 1): Geovisualization
 
@@ -60,61 +60,3 @@ complications that arise due to spatial dependence and spatial
 heterogeneity in empirical data sets are explored. Methodological topics include an
 overview of model specifications for regression with spatial data, methods of
 estimation, model diagnostics, and validation issues. 
-
-* Prerequisites
-
-- Basic knowledge of Python is assumed.
-- Familiarity with geospatial data and methods will be helpful, but not required.
-
-* Preparation for Workshops 
-Participants are expected to bring their own laptops and to follow the
-instructions below for installing the required packages /prior/ to the workshop.
-
-** Download Anaconda Python Distribution
-We will be using a number of Python packages for geospatial analysis, and the
-easiest way to install these is to use the [[https://www.anaconda.com/download/][Anaconda Python Distribution.]]
-
-1. Download Anaconda version 3.6 for your operating system.
-2. Once you have downloaded and installed Anaconda start a [[https://www.quora.com/How-do-I-start-the-anaconda-command-prompt][terminal]]
-
-** Install the Workshop Environment
-1. Download the workshop [[https://github.com/sjsrey/gdapy18/archive/master.zip][archive.]]
-2. Extract the archive ~unzip gdapy18-master.zip~
-3. ~cd gdapy18-master/~
-4. ~conda-env create -f workshop.yml~
-
-That last step downloads a number of packages and could take up to 10 minutes
-if you have a slow connection.
-
-
-** Activate the Workshop Environment
-If using [[https://stackoverflow.com/questions/49600611/python-anaconda-should-i-use-conda-activate-or-source-activate-in-linux][conda version 4.4 or later]]:
-
-1. ~conda activate workshop~
-
-If using an older version of conda:
-
-1. On Windows: ~activate workshop~
-2. On Mac/Linux: ~source activate workshop~
-
-** Test the Installation 
-1. ~jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb~
-
-You should see something like:
-#+BEGIN_SRC sh
-[NbConvertApp] Converting notebook check_workshop.ipynb to html
-[NbConvertApp] Executing notebook with kernel: python2
-[NbConvertApp] Writing 435635 bytes to check_workshop.html
-#+END_SRC
-
-This will generate a file ~check_workshop.html~ in the local directory. If you
-open this up in a browser you should see something like the following inside
-the file:
-
-[[./figures/htmlout.png]]
-
-
-At this point you are good to go. You can proceed to the [[workshopTOC.org][workshop table of contents]].
-
-If you do hit any snags, just email the instructor at ~sergio.rey at ucr.edu~ for help.
-
