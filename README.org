@@ -16,7 +16,7 @@ spatial data analysis and spatial econometrics.
 The series is organized into four workshops that provide computationally based introductions
 to the /processing/, /visualization/, /exploration/, and /modeling/ of geospatial data.
 
- (All workshops are from 9-11 a.m. on the dates listed.)
+ (All workshops are from 9:10-11:00 a.m. on the dates listed.)
 ** Workshop 1 (April 24): Geospatial Data Processing with Python 
 Geospatial data comes in a rich variety of formats and from many different
 sources. Wrangling geospatial data is often a major component of any applied
@@ -27,6 +27,10 @@ shapefile, GeoJSON, WKT, WKB), and the treatment of different spatial coordinate
 reference systems. Methods of deterministic spatial analysis involving
 topological relationships and spatial operations including buffering,
 dissolving, clipping, splitting and others, are covered.
+*** Lessons
+- Introduction to Shapely
+- Introduction to Geopandas
+- Geoprocessing with Geopandas
 
 ** Workshop 2 (May 1): Geovisualization
 
@@ -84,6 +88,12 @@ if you have a slow connection.
 
 
 ** Activate the Workshop Environment
+If using [[https://stackoverflow.com/questions/49600611/python-anaconda-should-i-use-conda-activate-or-source-activate-in-linux][conda version 4.4 or later]]:
+
+1. ~conda activate workshop~
+
+If using an older version of conda:
+
 1. On Windows: ~activate workshop~
 2. On Mac/Linux: ~source activate workshop~
 
@@ -104,6 +114,7 @@ the file:
 [[./figures/htmlout.png]]
 
 
-At this point you are good to go. 
+At this point you are good to go. You can proceed to the [[workshopTOC.org][workshop table of contents]].
 
 If you do hit any snags, just email the instructor at ~sergio.rey at ucr.edu~ for help.
+
