@@ -154,8 +154,7 @@ following inside the file:
 
 ![](./figures/htmlout.png)
 
-At this point you are good to go. You can proceed to the *workshop table
-of contents*.
+At this point you are good to go. You can proceed to the [workshop table of contents](workshopTOC.org).
 
 If you do hit any snags, just email the instructor at
 `sergio.rey at ucr.edu` for help.
