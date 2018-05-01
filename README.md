@@ -1,8 +1,6 @@
 Introduction to Geospatial Data Analysis with Python
 ----------------------------------------------------
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/sjsrey/gdapy18/master)
-
 
 A sequence of four workshops for the [Graduate Quantitative Methods
 Center](https://gradquant.ucr.edu/) (aka GradQuant) at the University of
@@ -160,7 +158,6 @@ following inside the file:
 
 ![](./figures/htmlout.png)
 
-At this point you are good to go. You can proceed to the [workshop table of contents](workshopTOC.org).
 
 If you do hit any snags, just email the instructor at
 `sergio.rey at ucr.edu` for help.
