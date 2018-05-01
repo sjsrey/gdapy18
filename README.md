@@ -28,7 +28,16 @@ and *modeling* of geospatial data.
 
 (All workshops are from 9:10-11:00 a.m. on the dates listed.)
 
-Workshop 1 (April 24): Geospatial Data Processing with Python
+Workshop 1 (April  24): Introduction to Python for Spatial Data Analysis
+------------------------------------
+This workshop covers the core features of the Python language and serves as a
+primer on using Python for Spatial Data Analysis. Users are introduced to
+Jupyter Notebooks as a computational environment, followed by a series of
+Jupyter notebooks that provide introductions to data structures, functions,
+conditional execution, file processing, and plotting in Python. 
+
+
+Workshop 2 (May 1): Geospatial Data Processing with Python
 -------------------------------------------------------------
 
 Geospatial data comes in a rich variety of formats and from many
@@ -48,10 +57,11 @@ dissolving, clipping, splitting and others, are covered.
 -   Introduction to Geopandas
 -   Geoprocessing with Geopandas
 
-Workshop 2 (May 1): Geovisualization
-------------------------------------
 
-The second workshop focuses on the *visualization* of geospatial data.
+
+Workshop 3 (May 15): Exploratory Spatial Data Analysis
+------------------------------------------------------
+This third workshop covers the *visualization* and *exploration* of spatial data.
 Here we explore a number of Python libraries for scientific
 visualization in general, and geovisualization in particular. Basic
 cartographic concepts involving choropleth mapping, color schemes, and
@@ -60,11 +70,7 @@ visualization where the focus is on quickly generating graphical
 depictions and gather insights from geospatial are also examined.
 Libraries supporting publication quality visualizations are presented.
 Finally, the development of interactive geovisualizations is introduced.
-
-Workshop 3 (May 15): Exploratory Spatial Data Analysis
-------------------------------------------------------
-
-This workshop provides and introduction to methods that support the
+This workshop also provides and introduction to methods that support the
 *exploration* of spatial data. The goal of these methods is to uncover
 and detect interesting geographical patterns. The formal representation
 of neighbor relationships via spatial weights matrices are discussed.
