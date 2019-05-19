@@ -25,6 +25,7 @@ dependencies:
       - folium
       - bambi
       - pystan
+      - geocoder
       - polyline
   - contextily
   - pymc3
